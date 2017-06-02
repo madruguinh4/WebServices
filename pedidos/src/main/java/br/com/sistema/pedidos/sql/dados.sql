@@ -1,0 +1,21 @@
+insert into cliente values(1,'Rodrigo');
+insert into cliente values(2,'Julio');
+insert into cliente values(3,'Roberta');
+insert into cliente values(4,'Daniel');
+insert into cliente values(5,'Larissa');
+insert into cliente values(6,'Diego');
+insert into cliente values(7,'Manuela');
+insert into cliente values(8,'Adão');
+insert into cliente values(9,'Xuxa');
+insert into cliente values(10,'Pelé');
+
+insert into pedido values(1,'2017-06-01', 1,'Tenis nike', 1,220.50);
+insert into pedido values(2,'2017-06-01',2 ,'Xícara', 1,35);
+insert into pedido values(3,'2017-06-01',3 ,'Pacote de café', 1,8.30);
+insert into pedido values(4,'2017-06-01',4 ,'Livro Star Wars', 1,40);
+insert into pedido values(5,'2017-06-01',5 ,'Celular iphone5', 1,1400.50);
+insert into pedido values(6,'2017-06-01',6 ,'Boneco Mario', 1,20);
+insert into pedido values(7,'2017-06-01', 7,'Camisa do Chaves', 1,220.50);
+insert into pedido values(8,'2017-06-01', 8,'Dvd Senhor dos Anéis', 1,50);
+insert into pedido values(9,'2017-06-01', 9,'Sabre de Luz', 1,150.80);
+insert into pedido values(10,'2017-06-01',10 ,'Sapato', 1,130);
