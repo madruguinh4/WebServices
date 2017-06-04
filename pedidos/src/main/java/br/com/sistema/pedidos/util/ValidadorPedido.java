@@ -17,9 +17,9 @@ public class ValidadorPedido {
 	
 	public void validaDadosObjeto(Pedido pedido){
 	
-		validaQuantidade(pedido.getQuantidade());
-		validaData(pedido.getDataCadastro());
-		validaDesconto(pedido.getQuantidade(), pedido.getValor());
+		pedido.setQuantidade(validaQuantidade(pedido.getQuantidade()));
+		pedido.setDataCadastro(validaData(pedido.getDataCadastro()));
+		pedido.setValor(validaDesconto(pedido.getQuantidade(), pedido.getValor()));
 		
 	}
 	
